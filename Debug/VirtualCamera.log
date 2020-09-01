@@ -1,0 +1,12 @@
+﻿Build started 9/1/2020 10:54:51 AM.
+     1>Project "C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\VirtualCamera.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"VCam.ax" /INCREMENTAL /NOLOGO "C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\dshow\lib\strmbasd.lib" odbc32.lib odbccp32.lib strmbasd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd.lib /DEF:".\Dll.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\VCam.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\VCam.lib" /MACHINE:X64 /DLL .\Debug\DibHelper.obj
+         .\Debug\Dll.obj
+         .\Debug\Filter.obj
+     1>strmbasd.lib(amvideo.obj) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+     1>Done Building Project "C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\VirtualCamera.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.08

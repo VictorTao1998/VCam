@@ -1,0 +1,21 @@
+﻿Build started 9/1/2020 10:37:39 AM.
+     1>Project "C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\VirtualCamera.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VIRTUALCAMERA_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR"x64\Debug\\" /Gd /TP /errorReport:prompt DibHelper.cpp Dll.cpp Filter.cpp
+         DibHelper.cpp
+         Dll.cpp
+         STREAMS.H included TWICE
+         Filter.cpp
+     1>Filter.cpp(369): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\x64\Debug\VCam.ax) does not match the Linker's OutputFile property value (C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\VCam.ax). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"VCam.ax" /INCREMENTAL /NOLOGO "C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\dshow\lib\strmbasd.lib" odbc32.lib odbccp32.lib strmbasd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmtd.lib /DEF:".\Dll.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\x64\Debug\VCam.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\VCam.lib" /MACHINE:X64 /DLL .\Debug\DibHelper.obj
+         .\Debug\Dll.obj
+         .\Debug\Filter.obj
+     1>strmbasd.lib(amvideo.obj) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+     1>Done Building Project "C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\VirtualCamera.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.77
