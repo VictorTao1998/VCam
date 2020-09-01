@@ -265,7 +265,7 @@
       <AdditionalDependencies>C:\Users\taoji\OneDrive\teleconferenceProj\vcamcsdn\VirtualCamera-\VirtualCamera-FQQ\dshow\lib\strmbasd.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ModuleDefinitionFile>.\Dll.def</ModuleDefinitionFile>
       <IgnoreSpecificDefaultLibraries>libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <TargetMachine>MachineX64</TargetMachine>
+      <TargetMachine>MachineX86</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
